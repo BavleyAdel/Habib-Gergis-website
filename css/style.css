@@ -1,0 +1,220 @@
+body {
+    background-color: #eee;
+    direction: rtl;
+    margin-top: 70px;
+    -webkit-overflow-scrolling: touch;
+}
+
+/******* Jumbotron ******/
+
+.jumbotron .h1,
+.jumbotron h1 {
+    font-size: 42px;
+}
+
+/****** thumbnail *****/
+
+h3 {
+    font-size: 14px;
+    height: 25px;
+    margin-top: 0px;
+}
+
+.col-md-4,
+.col-sm-6,
+.col-xs-12 {
+    float: right;
+}
+
+a {
+    color: black;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #337ab7;
+    transition: .5s ease;
+}
+
+/********** Go Up *********/
+.goUp{
+    position: fixed;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    z-index: 99;
+    bottom: 25px;
+    right: 12px;
+    padding: 10 13px;
+    border-radius: 5px;
+    background-color: rgba(5, 10, 5, 0.2);
+}
+.goUpPic{
+    font-weight: 700;
+}
+
+/********************** navbar ************************************************************/
+
+.navbar-inverse {
+    border-radius: 0px;
+}
+
+.navbar-nav>li {
+    float: right;
+}
+
+/** navbar-links **/
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #dedede;
+    font-size: 16px;
+    direction: rtl;
+    font-weight: 700;
+}
+
+/*******************************************************************/
+
+/*** brand **/
+
+.navbar-inverse .navbar-brand {
+    color: #dedede;
+    font-size: 20px;
+}
+
+#sp {
+    color: #92ccff;
+    font-size: 23px;
+}
+
+/***************************************************************/
+
+/** active-link **/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #337ab7;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/** navbar-links-hover **/
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #444444;
+}
+
+/***************************************************************/
+
+/** navbar-dropdown **/
+
+.dropdown-menu {
+    text-align: right;
+    border-top: #337ab7 2px solid;
+    background-color: #222;
+    min-width: 180px;
+}
+
+/** dropdown-direction **/
+
+.navbar-right .dropdown-menu {
+    right: auto;
+    left: 0;
+}
+
+/** navbar-drpdown-links **/
+
+.dropdown-menu>li>a {
+    color: #eee;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    
+}
+
+/** navbar-drpdown-links-hover **/
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: #fff;
+    background-color: #337ab7;
+    padding-right: 27px;
+    transition: padding 0.6s ease;
+}
+/**************************************************************************************************************************/
+
+/** carousel **/
+
+/** carousel-controls **/
+
+.carousel-control {
+    opacity: .3;
+}
+
+/*************************************************************************************************************************/
+
+/************* panel-info ************/
+
+.panel-info {
+    direction: rtl;
+    background-color: #eee;
+}
+
+.panel-body {
+    padding: 3px;
+}
+
+/*************************************************************************************************************************/
+
+/****** thumbnail *****/
+
+.thumbnail {
+    min-height: 71%;
+}
+
+/* thumbnail-button */
+
+.btn-primary {
+    padding: 5px 10px;
+    float: left;
+    font-size: 14px;
+}
+
+/*********************************************************************************************************************/
+
+/**** jumbotron ***/
+
+.jumbotron {
+    padding-top: 0px;
+}
+/********************************************************************************************************************/
+/************ books **********/
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 245px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    box-shadow: 5px 7px 5px 5px #888888;
+    transition: .5s ease;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    max-height: 270px;
+
+}
+
+div.desc {
+    font-size: 17px;
+    padding: 16px;
+    text-align: center;
+}
+/********************************************************************************************************************/
