@@ -18,7 +18,7 @@ HTML5: Semantic structure and content organization.
 
 CSS3: Custom styling and layout design.
 
-Bootstrap 5: Responsive grid system and UI components.
+Bootstrap 3.7: Responsive grid system and UI components.
 
 JavaScript: Dynamic behavior and client-side interactivity.
 
